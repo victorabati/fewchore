@@ -8,6 +8,8 @@ $(function() {
 /* Initialize Swiper */
 var swiper = new Swiper('.wwdSwiper', {
       effect: 'coverflow',
+      observer: true,
+      observeParents: true,
       grabCursor: true,
       centeredSlides: true,
       slidesPerView: 'auto',
